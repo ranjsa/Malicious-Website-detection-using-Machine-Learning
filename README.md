@@ -22,7 +22,7 @@ It provides Chrome with the basic information about the extension like name, per
 
 **2.content.js:**
 It runs in separate unprivileged javscript environment and has complete access to the DOM.
-Here, the trained "SVM model" (weights calculated in ./ML Algorithm Evaluation/run_algorithms.py) has been used as a persistent model to classify websites.
+Here, the trained 'SVM model' (weights calculated in ./ML Algorithm Evaluation/run_algorithms.py) has been used as a persistent model to classify websites.
 Below functions compute feature vector for the portal under analysis:
 - isIPInURL()
 - isLongURL()
